@@ -1,29 +1,75 @@
-/bin/
-/obj/
-/Release/
-/Debug/
+# Compilation output directories
+**/bin/
+**/obj/
+**/Release/
+**/Debug/
+**/x64/
+**/x86/
+**/AnyCPU/
 
+# User-specific configuration files
 *.suo
 *.user
 *.userosscache
 *.sln.docstates
+*.csproj.user
+*.vbproj.user
+*.vcxproj.user
 
+# Visual Studio workspace cache
 .vs/
+**/.vs/
+.vsconfig
 
-/publish/
+# Publish-related files
+**/publish/
 *.publish.xml
+*.pubxml
+*.pubxml.user
 
-/packages/
+# NuGet related
+**/packages/
 project.assets.json
+project.lock.json
+*.nupkg
+!*.nuget.props
+!*.nuget.targets
 
+# Debug files
 *.pdb
 *.idb
 *.ipdb
 *.iobj
 *.cache
-
-*.ComponentModelCache
-
+*.dbmdl
 *.log
+
+# Designer temporary files
+*.ComponentModelCache
+*.Designer.vb
+**/Properties/Resources.resx.autogen
+**/Properties/Settings.settings.autogen
+
+# Testing related
+**/TestResults/
+*.coverage
+
+# Editor/IDE related
 *.swp
+*.swo
+.DS_Store
 _ReSharper*/
+**/_ReSharper*/
+.idea/
+**/.idea/
+*.sublime-*
+.vscode/
+**/.vscode/
+*.code-workspace
+
+# Other temporary files
+*.tmp
+*.temp
+*.bak
+*.old
+$RECYCLE.BIN/
